@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/CoreArchiver.svg</file>
+    </qresource>
+</RCC>
