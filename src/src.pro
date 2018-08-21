@@ -12,6 +12,7 @@ TEMPLATE = app
 DEFINES += QT_DEPRECATED_WARNINGS
 
 CONFIG += c++11
+CONFIG += silent warn_on shared_and_static
 
 unix:!macx: LIBS += -lcprime
 
@@ -31,8 +32,6 @@ HEADERS += \
 SOURCES += \
     corearchiver.cpp \
     main.cpp
-
-
 
 
 # Default rules for deployment.
